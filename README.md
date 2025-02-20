@@ -40,14 +40,30 @@ Once connected, clients can type messages and press Enter to send them to the se
 6. Disconnecting Clients
 To disconnect from the server, simply type exit in the chat. The server will acknowledge the disconnection and remove the client from the list of active users.
 
-Example Usage
-Server Terminal Output:Server started...
+Example Usage:
+Server Terminal Output:
+
+
+Server started...
+
 Client 1 (Alice) Terminal Output:Enter your username:
+
 Alice
+
+
 Client 2 (Bob) Terminal Output:Enter your username:
+
+
 Bob
+
+
 Client 1 (Alice) sends a message:Hello, everyone!
+
+
 Server Output:Alice: Hello, everyone!
+
 Clients (Bob and Alice) see:Alice: Hello, everyone!
+
 Dependencies
+
 This project does not have any external dependencies, as it uses standard Java libraries (Java Sockets and Multithreading).
